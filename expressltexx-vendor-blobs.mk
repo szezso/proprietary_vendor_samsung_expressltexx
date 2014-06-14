@@ -70,6 +70,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/expressltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/expressltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/expressltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/samsung/expressltexx/proprietary/vendor/firmware/libpn547_fw_eng.so:system/vendor/firmware/libpn547_fw_eng.so \
+    vendor/samsung/expressltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -83,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/expressltexx/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/expressltexx/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/samsung/expressltexx/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/samsung/expressltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/expressltexx/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/expressltexx/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
