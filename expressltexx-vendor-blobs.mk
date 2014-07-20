@@ -58,6 +58,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/expressltexx/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/expressltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/expressltexx/proprietary/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/expressltexx/proprietary/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/expressltexx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/samsung/expressltexx/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/samsung/expressltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
@@ -66,15 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/expressltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/expressltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/expressltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/expressltexx/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/expressltexx/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
