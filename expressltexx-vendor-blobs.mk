@@ -16,8 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/samsung/expressltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/expressltexx/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/samsung/expressltexx/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/samsung/expressltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/expressltexx/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/expressltexx/proprietary/bin/thermald:system/bin/thermald \
     vendor/samsung/expressltexx/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -80,8 +81,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/expressltexx/proprietary/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/expressltexx/proprietary/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/expressltexx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/samsung/expressltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/expressltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/expressltexx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/expressltexx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/expressltexx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/expressltexx/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/expressltexx/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/expressltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -126,13 +135,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/expressltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/expressltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/expressltexx/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/samsung/expressltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/expressltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
     vendor/samsung/expressltexx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/samsung/expressltexx/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/expressltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/expressltexx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/expressltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/expressltexx/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/samsung/expressltexx/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
+    vendor/samsung/expressltexx/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/expressltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/samsung/expressltexx/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/expressltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/samsung/expressltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/expressltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/samsung/expressltexx/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
