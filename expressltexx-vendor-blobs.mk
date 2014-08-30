@@ -82,11 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/expressltexx/proprietary/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/expressltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/samsung/expressltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/expressltexx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/expressltexx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/expressltexx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
