@@ -48,24 +48,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/expressltexx/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/expressltexx/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/samsung/expressltexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/expressltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/expressltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/expressltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/expressltexx/proprietary/bin/sec-ril:system/bin/sec-ril \
     vendor/samsung/expressltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/expressltexx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/samsung/expressltexx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/samsung/expressltexx/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/expressltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/expressltexx/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/expressltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/expressltexx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/samsung/expressltexx/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/samsung/expressltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/expressltexx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/expressltexx/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/expressltexx/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/expressltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/expressltexx/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/expressltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/expressltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/expressltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/expressltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -81,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/expressltexx/proprietary/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/expressltexx/proprietary/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/expressltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/expressltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -130,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/samsung/expressltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/expressltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/expressltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/expressltexx/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/samsung/expressltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/expressltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
@@ -143,10 +139,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/expressltexx/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/expressltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/samsung/expressltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/expressltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/expressltexx/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/samsung/expressltexx/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/expressltexx/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
