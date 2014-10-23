@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/expressltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/expressltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/expressltexx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/expressltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/expressltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/expressltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
