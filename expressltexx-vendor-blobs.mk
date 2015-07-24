@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/expressltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/expressltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/expressltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/expressltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/expressltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/expressltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -77,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/expressltexx/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/expressltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/expressltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/expressltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/expressltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/expressltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
